@@ -1,7 +1,6 @@
 (function () {
   let interval = null;
   if (!performEnforcements()) {
-    console.log('helelo')
     retry(function () {
       return performEnforcements();
     })
