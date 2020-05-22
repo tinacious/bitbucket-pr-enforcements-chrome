@@ -9,6 +9,9 @@ This Chrome extension disables the merge button if either of the following occur
 - there are merge conflicts with the target branch
 - the source branch is behind the target branch
 
+This functionality is supported in the new Bitbucket UI only.
+
+<img src="screenshot.png" style="max-width: 472px;" width="472" />
 
 
 ## Installation
