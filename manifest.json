@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Bitbucket PR enforcements",
+  "author": "Tina Holly (info@tinaciousdesign.com)",
+  "version": "0.0.1",
+  "description": "Disables the merge button if there are conflicts or the branch isn't up to date with the target",
+  "content_scripts": [
+    {
+      "matches": ["https://bitbucket.org/*"],
+      "js": ["./bitbucket-enforcements.js"]
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
